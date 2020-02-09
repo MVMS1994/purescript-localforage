@@ -1,0 +1,34 @@
+{
+  "name": "purescript-localforage",
+  "version": "1.0.0",
+  "description": "Localforage bindlings for Purescript.",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "pulp test",
+    "compile": "pulp build",
+    "start": "pulp -w build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVMS1994/purescript-localforage.git"
+  },
+  "keywords": [
+    "localforage",
+    "purescript-localforage",
+    "indexeddb",
+    "storage",
+    "web-storage"
+  ],
+  "author": "Veera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVMS1994/purescript-localforage/issues"
+  },
+  "homepage": "https://github.com/MVMS1994/purescript-localforage#readme",
+  "dependencies": {
+    "localforage": "^1.7.3"
+  }
+}
